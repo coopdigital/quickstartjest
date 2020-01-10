@@ -1,5 +1,5 @@
 # node quick start with js
-This contains a repo you can fork to get quickly started with test-driven js.
+This contains a repo you can **fork** (don't clone/push) to get quickly started with test-driven js.
 Once cloned run ```npm install``` then ```npm test```
 
 A Sample function is in ```src/index.js``` with a corresponding test in ```__tests__/main.tests.js``` to get you started.
