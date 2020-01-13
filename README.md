@@ -1,4 +1,4 @@
-# node quick start with js
+# node quick start with js [![Build Status](https://travis-ci.com/tallus/quickstartjest.svg?branch=master)](https://travis-ci.com/tallus/quickstartjest)
 This contains a repo you can **fork** (don't clone/push) to get quickly started with test-driven js.
 
 Once cloned run ```npm ci``` then ```npm test``` (using npm ci rather than npm install will ensure a clean install).
