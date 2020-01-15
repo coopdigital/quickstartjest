@@ -173,3 +173,27 @@ describe('testing objects', () => {
     expect(myCat).toMatchObject(expected);
   });
 });
+
+describe('toThrow is used to check an Exception has be thrown', () => {
+  const GoodError = function(msg){this.msg = msg;};
+  const BadError = function(msg){this.msg = msg;};
+
+  test('toThrow takes an Exception as an argument', () => {
+    function throwError(){throw new BadError();}
+
+    expect(throwError).toThrow(GoodError)
+  });
+
+  test('toThrow takes a string  as an argument', () => {
+    function throwError(){throw new Error('error');}
+
+    // N.B. Not exact match: whoops would also match here
+    expect(throwError).toThrow('oops!')
+  });
+
+  test('toThrow with no args will catch any exception', () => {
+    function throwError(){throw new Error();}
+
+    expect(throwError()).toThrow()
+  });
+});
