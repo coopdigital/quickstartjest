@@ -5,10 +5,10 @@ Once cloned run ```npm ci``` then ```npm test``` (using npm ci rather than npm i
 
 A Sample function is in ```src/index.js``` with a corresponding test in ```__tests__/main.tests.js``` to get you started.
 
-Its based on the quickstart in the [gist](https://gist.github.com/tallus/c073de125734ed3717d4)
+Its based on the quickstart in the [gist](https://gist.github.com/tallus/22ec187eeb7f77ff1d4318239f3676e3)
 
 Its expected that you run the current stable node version. (12.3.0). You should
-use ```nvm``` to manage this: see the [gist](https://gist.github.com/tallus/c073de125734ed3717d4) for more details.
+use ```nvm``` to manage this: see the [gist](https://gist.github.com/tallus/22ec187eeb7f77ff1d4318239f3676e3) for more details.
 
 
 
