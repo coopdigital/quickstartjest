@@ -28,5 +28,4 @@ to package.json so its ignored.
   }
 }
 
-This repo was setup for working with apprentices.
 ```
